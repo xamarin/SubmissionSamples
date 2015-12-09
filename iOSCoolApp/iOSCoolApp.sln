@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSCoolApp", "iOSCoolApp\iOSCoolApp.csproj", "{1EDE20AD-579A-459C-92AE-1743FD608F52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|Any CPU.Build.0 = Release|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|iPhone.Build.0 = Release|iPhone
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1EDE20AD-579A-459C-92AE-1743FD608F52}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
