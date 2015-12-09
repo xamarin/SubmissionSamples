@@ -1,0 +1,5 @@
+/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/mtouch-cache/32/Link/Xamarin.iOS.dll
+/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/mtouch-cache/32/Link/CloudKitAtlas.exe
+/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/mtouch-cache/32/Link/System.dll
+/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/mtouch-cache/32/Link/mscorlib.dll
+/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/mtouch-cache/32/Link/System.Core.dll

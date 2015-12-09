@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons29x29.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons29x29@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons40x40@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons57x57.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons57x57@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/AppIcons60x60@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/LaunchImage-700@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/bundle/LaunchImage-700-568h@2x.png</string>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/obj/iPhone/AppStore/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.notices</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset/[iphone][57x57][][][1x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>57x57 app icons only apply to iPhone apps targeting releases of iOS prior to 7.0</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset/[iphone][57x57][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/olegoid/Projects/monotouch-samples/ios8/CloudKitAtlas/CloudKitAtlas/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>57x57@2x app icons only apply to iPhone apps targeting releases of iOS prior to 7.0</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

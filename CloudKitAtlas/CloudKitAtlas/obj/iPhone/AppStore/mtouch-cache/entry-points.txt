@@ -1,0 +1,7 @@
+xamarin_IntPtr_objc_msgSend_IntPtr
+xamarin_IntPtr_objc_msgSendSuper_IntPtr
+xamarin_release_managed_ref
+xamarin_create_managed_ref
+xamarin_get_block_descriptor
+xamarin_timezone_get_data
+xamarin_log
