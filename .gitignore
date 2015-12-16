@@ -1,0 +1,15 @@
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+*.suo
+
+packages/
+[Bb]uild/
+*/bin/*
+*/obj/*
+*/*/bin/*
+*/*/obj/*
+*/*/*/bin/*
+*/*/*/obj/*
