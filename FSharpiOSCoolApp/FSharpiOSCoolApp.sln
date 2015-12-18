@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FSharpiOSCoolApp", "FSharpiOSCoolApp\FSharpiOSCoolApp.fsproj", "{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Release|iPhone.Build.0 = Release|iPhone
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7131BD89-3F8C-4441-B9C3-8A7FF6E0CA12}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
