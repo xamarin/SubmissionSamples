@@ -43,6 +43,7 @@
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <BuildIpa>true</BuildIpa>
     <CodesignProvision>e2094754-c2d9-44a1-9333-7826191461a1</CodesignProvision>
+    <MtouchLink>None</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>

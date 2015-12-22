@@ -4,40 +4,46 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>UICatalog</string>
-	<key>CFBundleName</key>
-	<string>UICatalog</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.uicatalog</string>
+	<key>CFBundleName</key>
+	<string>UICatalog</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
+	<key>GCSupportedGameControllers</key>
+	<array>
+		<dict>
+			<key>ProfileName</key>
+			<string>ExtendedGamepad</string>
+		</dict>
+		<dict>
+			<key>ProfileName</key>
+			<string>MicroGamepad</string>
+		</dict>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+    	<string>arm64</string>
+	</array>
+	<key>GCSupportsControllerUserInteraction</key>
+	<true/>
 	<key>MinimumOSVersion</key>
 	<string>9.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>3</integer>
 	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
-	<key>GCSupportedGameControllers</key>
-    <array>
-	    <dict>
-	      <key>ProfileName</key>
-	      <string>ExtendedGamepad</string>
-	    </dict>
-	    <dict>
-	      <key>ProfileName</key>
-	      <string>MicroGamepad</string>
-	    </dict>
-	</array>
-	<key>GCSupportsControllerUserInteraction</key>
-	<true/>
+	<key>XSAppIconAssets</key>
+	<string>Resources/Images.xcassets/Brand Assets.brandassets</string>
 </dict>
 </plist>
