@@ -11,7 +11,7 @@ The samples in this directory optimized to be used by [submission_runner](https:
 Samples configuration
 ----------------------
 All samples in this repository should be configured to use:
-* *Release|Device* configuration
+* *Release|Device* configuration(or *Release* for Mac apps)
 * Valid AppStore distribution certificate
 * Valid provisioning profile
 * iOS IPA Option should be set to build iTunes package archive
