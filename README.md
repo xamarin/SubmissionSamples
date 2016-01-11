@@ -5,6 +5,7 @@ The samples in this directory optimized to be used by [submission_runner](https:
 * [iOS F#](./FSharpiOSCoolApp/)
 * [iOS iCloud Entitlements](./CloudKitAtlas/)
 * [Mac](./MacCoolApp/)
+* [Mac F#](./FSharpMacCoolApp/)
 * [tvOS](./UICatalog/)
 * [watchOS](./WatchKitCatalog/)
 
