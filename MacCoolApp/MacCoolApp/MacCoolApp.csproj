@@ -87,8 +87,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
   <ItemGroup>
-    <BundleResource Include="Resources\icons.icns" />
-    <BundleResource Include="Resources\icon.icns" />
     <BundleResource Include="Resources\MyIcon.icns" />
   </ItemGroup>
 </Project>
