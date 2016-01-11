@@ -32,6 +32,7 @@
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <XamMacArch>x86_64</XamMacArch>
     <CodeSignProvision>Automatic</CodeSignProvision>
+    <Profiling>false</Profiling>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
@@ -49,8 +50,9 @@
     <EnablePackageSigning>true</EnablePackageSigning>
     <PackageSigningKey>3rd Party Mac Developer Installer: Peter Beaman (ZYWNCWEKU5)</PackageSigningKey>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSignProvision>d2e6d6fd-e443-45e8-a873-8ea2bade78c7</CodeSignProvision>
+    <CodeSignProvision>61edef14-3ec1-4e05-aca4-ba161678a242</CodeSignProvision>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
+    <Profiling>false</Profiling>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
