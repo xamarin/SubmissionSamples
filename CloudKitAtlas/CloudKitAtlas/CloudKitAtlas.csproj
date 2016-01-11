@@ -112,6 +112,37 @@
   <ItemGroup>
     <BundleResource Include="Resources\one.png" />
     <BundleResource Include="Resources\two.png" />
+    <BundleResource Include="Resources\Images.xcassets\Contents.json" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-57.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-60%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-72.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-72%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-76.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-76%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-carplay-120.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29%403x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-40.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-40%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-40%403x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-50.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-50%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spp-57%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-172.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-196.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%403x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-40%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-44%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-48.png" />
+    <BundleResource Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-55.png" />
+    <BundleResource Include="Resources\Images.xcassets\splash-xamagon.imageset\Contents.json" />
+    <BundleResource Include="Resources\Images.xcassets\splash-xamagon.imageset\splash-xamagon.png" />
+    <BundleResource Include="Resources\Images.xcassets\splash-xamagon.imageset\splash-xamagon%402x.png" />
+    <BundleResource Include="Resources\Images.xcassets\splash-xamagon.imageset\splash-xamagon%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -158,17 +189,9 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas114.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas120.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas29.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas57.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas58.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\CloudKitAtlas80.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png" />
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons-1.appiconset\Contents.json" />
   </ItemGroup>
 </Project>
