@@ -53,6 +53,7 @@
     </PlatformTarget>
     <CodeSignProvision>61edef14-3ec1-4e05-aca4-ba161678a242</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Peter Beaman (ZYWNCWEKU5)</PackageSigningKey>
+    <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
