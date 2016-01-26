@@ -8,7 +8,7 @@ The samples in this directory optimized to be used by [submission_runner](https:
 * [Mac F#](./FSharpMacCoolApp/)
 * [Mac Don't Link](./MacCoolApp_DontLink/)
 * [tvOS](./UICatalog/)
-* [tvOS Don't Link](./UICatalog_Dont_Link/)
+* [tvOS Don't Link](./UICatalog_DontLink/)
 * [watchOS](./WatchKitCatalog/)
 
 Samples configuration
