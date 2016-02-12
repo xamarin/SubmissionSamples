@@ -124,5 +124,6 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spp-57%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-167.png" />
   </ItemGroup>
 </Project>

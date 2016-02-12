@@ -89,6 +89,7 @@
       "idiom": "ipad"
     },
     {
+      "filename": "icon-app-167.png",
       "size": "83.5x83.5",
       "scale": "2x",
       "idiom": "ipad"
@@ -118,13 +119,8 @@
       "idiom": "ipad"
     },
     {
-      "size": "60x60",
-      "scale": "2x",
-      "idiom": "car"
-    },
-    {
-      "size": "60x60",
-      "scale": "3x",
+      "size": "120x120",
+      "scale": "1x",
       "idiom": "car"
     },
     {
