@@ -20,7 +20,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
-    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchFastDev>true</MtouchFastDev>
@@ -42,7 +41,7 @@
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>e2094754-c2d9-44a1-9333-7826191461a1</CodesignProvision>
+    <CodesignProvision>810d01a1-bfaa-43b4-b490-b72d7cfbdab5</CodesignProvision>
     <MtouchLink>None</MtouchLink>
     <MtouchExtraArgs>--bitcode=asmonly</MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -81,8 +80,7 @@
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignProvision>e2094754-c2d9-44a1-9333-7826191461a1</CodesignProvision>
-    <BuildIpa>false</BuildIpa>
+    <CodesignProvision>810d01a1-bfaa-43b4-b490-b72d7cfbdab5</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
