@@ -9,6 +9,7 @@ The samples in this directory optimized to be used by [submission_runner](https:
 * [Mac Don't Link](./MacCoolApp_DontLink/)
 * [tvOS](./UICatalog/)
 * [tvOS Don't Link](./UICatalog_DontLink/)
+* [tvOS SceneKit](./SceneKitGame/)
 * [watchOS](./WatchKitCatalog/)
 
 Samples configuration
