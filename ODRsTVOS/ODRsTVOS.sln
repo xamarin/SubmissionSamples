@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODRsTVOS", "ODRsTVOS\ODRsTVOS.csproj", "{47E20B01-9608-4927-A7CE-A78CC9EC5962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Release|iPhone.ActiveCfg = Release|iPhone
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Release|iPhone.Build.0 = Release|iPhone
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{47E20B01-9608-4927-A7CE-A78CC9EC5962}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
