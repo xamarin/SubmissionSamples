@@ -46,12 +46,12 @@
     <UseSGen>true</UseSGen>
     <IncludeMonoRuntime>true</IncludeMonoRuntime>
     <CreatePackage>true</CreatePackage>
-    <CodeSigningKey>3rd Party Mac Developer Application: Peter Beaman (ZYWNCWEKU5)</CodeSigningKey>
+    <CodeSigningKey>3rd Party Mac Developer Application</CodeSigningKey>
     <EnableCodeSigning>true</EnableCodeSigning>
-    <EnablePackageSigning>true</EnablePackageSigning>
+    <EnablePackageSigning>false</EnablePackageSigning>
     <PackageSigningKey>3rd Party Mac Developer Installer: Peter Beaman (ZYWNCWEKU5)</PackageSigningKey>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSignProvision>e97116eb-13d5-4145-8af0-4ea5fddc8c2d</CodeSignProvision>
+    <CodeSignProvision>Automatic</CodeSignProvision>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <Profiling>false</Profiling>
     <HttpClientHandler>HttpClientHandler</HttpClientHandler>
