@@ -25,7 +25,7 @@
     <UseSGen>true</UseSGen>
     <IncludeMonoRuntime>false</IncludeMonoRuntime>
     <EnablePackageSigning>false</EnablePackageSigning>
-    <CodeSigningKey>Mac Developer: Xamarin QA (JP4JS5NR3R)</CodeSigningKey>
+    <CodeSigningKey>Mac Developer</CodeSigningKey>
     <EnableCodeSigning>true</EnableCodeSigning>
     <CreatePackage>false</CreatePackage>
     <PackageSigningKey>Developer ID Installer</PackageSigningKey>
