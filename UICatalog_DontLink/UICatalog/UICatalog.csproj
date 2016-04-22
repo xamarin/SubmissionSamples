@@ -20,7 +20,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
-    <MtouchLink>None</MtouchLink>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchFastDev>true</MtouchFastDev>
@@ -42,7 +41,7 @@
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>810d01a1-bfaa-43b4-b490-b72d7cfbdab5</CodesignProvision>
+    <CodesignProvision>00584667-b670-4867-a05b-7f876918123b</CodesignProvision>
     <MtouchLink>None</MtouchLink>
     <MtouchExtraArgs>--bitcode=asmonly</MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -194,125 +193,15 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="MenuSplitViewController.cs" />
-    <Compile Include="MenuSplitViewController.designer.cs">
-      <DependentUpon>MenuSplitViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\ViewControllersMenuViewController.cs" />
-    <Compile Include="ViewControllerSamples\ViewControllersMenuViewController.designer.cs">
-      <DependentUpon>ViewControllersMenuViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TextEntry\TextEntryMenuViewController.cs" />
-    <Compile Include="TextEntry\TextEntryMenuViewController.designer.cs">
-      <DependentUpon>TextEntryMenuViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MenuTableViewController.cs" />
-    <Compile Include="DataItemCollectionViewCell.cs" />
-    <Compile Include="DataItems\DataItem.cs" />
-    <Compile Include="DataItemCellComposer.cs" />
-    <Compile Include="DataItems\Group.cs" />
-    <Compile Include="ControlSamples\ControlsMenuViewController.cs" />
-    <Compile Include="ControlSamples\ControlsMenuViewController.designer.cs">
-      <DependentUpon>ControlsMenuViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlSamples\ButtonsViewController.cs" />
-    <Compile Include="ControlSamples\ButtonsViewController.designer.cs">
-      <DependentUpon>ButtonsViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlSamples\SegmentedControlsViewController.cs" />
-    <Compile Include="ControlSamples\SegmentedControlsViewController.designer.cs">
-      <DependentUpon>SegmentedControlsViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlSamples\ProgressViewController.cs" />
-    <Compile Include="ControlSamples\ProgressViewController.designer.cs">
-      <DependentUpon>ProgressViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\CollectionViewController.cs" />
-    <Compile Include="ViewControllerSamples\CollectionViewController.designer.cs">
-      <DependentUpon>CollectionViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\AlertsViewController.cs" />
-    <Compile Include="ViewControllerSamples\AlertsViewController.designer.cs">
-      <DependentUpon>AlertsViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\SearchViewController.cs" />
-    <Compile Include="ViewControllerSamples\SearchViewController.designer.cs">
-      <DependentUpon>SearchViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\PageViewController.cs" />
-    <Compile Include="ViewControllerSamples\PageViewController.designer.cs">
-      <DependentUpon>PageViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\DataItemViewController.cs" />
-    <Compile Include="ViewControllerSamples\DataItemViewController.designer.cs">
-      <DependentUpon>DataItemViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\SearchResultsViewController.cs" />
-    <Compile Include="ViewControllerSamples\SearchResultsViewController.designer.cs">
-      <DependentUpon>SearchResultsViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllerSamples\GradientMaskView.cs" />
-    <Compile Include="DataItemCollectionViewCell.designer.cs">
-      <DependentUpon>DataItemCollectionViewCell.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TextEntry\TextFieldsViewController.cs" />
-    <Compile Include="TextEntry\TextFieldsViewController.designer.cs">
-      <DependentUpon>TextFieldsViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TextEntry\AlertFormViewController.cs" />
-    <Compile Include="TextEntry\AlertFormViewController.designer.cs">
-      <DependentUpon>AlertFormViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TextEntry\CustomInputAccessoryView.cs" />
-    <Compile Include="FocusSamples\CollectionViewContainerViewController.cs" />
-    <Compile Include="FocusSamples\CollectionViewContainerViewController.designer.cs">
-      <DependentUpon>CollectionViewContainerViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FocusSamples\CollectionViewContainerCell.cs" />
-    <Compile Include="FocusSamples\CollectionViewContainerCell.designer.cs">
-      <DependentUpon>CollectionViewContainerCell.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FocusSamples\FocusGuidesViewController.cs" />
-    <Compile Include="FocusSamples\FocusGuidesViewController.designer.cs">
-      <DependentUpon>FocusGuidesViewController.cs</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <InterfaceDefinition Include="Main.storyboard" />
-    <InterfaceDefinition Include="ControlSamples\ControlSamples.storyboard" />
-    <InterfaceDefinition Include="ViewControllerSamples\ViewControllerSamples.storyboard" />
-    <InterfaceDefinition Include="TextEntry\TextEntry.storyboard" />
-    <InterfaceDefinition Include="FocusSamples\FocusSamples.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\TVOS\Xamarin.TVOS.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="DataItems\" />
-    <Folder Include="ViewControllerSamples\" />
-    <Folder Include="TextEntry\" />
-    <Folder Include="FocusSamples\" />
-    <Folder Include="ControlSamples\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_background.imageset\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Baby 1.jpg" />
-    <BundleResource Include="Resources\Baby 2.jpg" />
-    <BundleResource Include="Resources\Baby 3.jpg" />
-    <BundleResource Include="Resources\Baby 4.jpg" />
-    <BundleResource Include="Resources\Baby 5.jpg" />
-    <BundleResource Include="Resources\Baby 6.jpg" />
-    <BundleResource Include="Resources\Baby 7.jpg" />
-    <BundleResource Include="Resources\Baby 8.jpg" />
-    <BundleResource Include="Resources\Iceland 1.jpg" />
-    <BundleResource Include="Resources\Iceland 2.jpg" />
-    <BundleResource Include="Resources\Iceland 3.jpg" />
-    <BundleResource Include="Resources\Iceland 4.jpg" />
-    <BundleResource Include="Resources\Iceland 5.jpg" />
-    <BundleResource Include="Resources\Iceland 6.jpg" />
-    <BundleResource Include="Resources\Iceland 7.jpg" />
-    <BundleResource Include="Resources\Iceland 8.jpg" />
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_background.imageset\Contents.json" />
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_background.imageset\stepper_and_segment_background.png" />
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\Contents.json" />
@@ -321,21 +210,5 @@
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\stepper_and_segment_background_highlighted.png" />
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\Contents.json" />
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\stepper_and_segment_segment_divider.png" />
-    <BundleResource Include="Resources\Italy 1.jpg" />
-    <BundleResource Include="Resources\Italy 2.jpg" />
-    <BundleResource Include="Resources\Italy 3.jpg" />
-    <BundleResource Include="Resources\Italy 4.jpg" />
-    <BundleResource Include="Resources\Italy 5.jpg" />
-    <BundleResource Include="Resources\Italy 6.jpg" />
-    <BundleResource Include="Resources\Italy 7.jpg" />
-    <BundleResource Include="Resources\Italy 8.jpg" />
-    <BundleResource Include="Resources\Lola 1 Large.jpg" />
-    <BundleResource Include="Resources\Lola 1.jpg" />
-    <BundleResource Include="Resources\Lola 2 Large.jpg" />
-    <BundleResource Include="Resources\Lola 2.jpg" />
-    <BundleResource Include="Resources\Lola 3 Large.jpg" />
-    <BundleResource Include="Resources\Lola 3.jpg" />
-    <BundleResource Include="Resources\Lola 4 Large.jpg" />
-    <BundleResource Include="Resources\Lola 4.jpg" />
   </ItemGroup>
 </Project>
