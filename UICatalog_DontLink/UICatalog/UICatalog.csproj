@@ -43,7 +43,7 @@
     <BuildIpa>true</BuildIpa>
     <CodesignProvision>00584667-b670-4867-a05b-7f876918123b</CodesignProvision>
     <MtouchLink>None</MtouchLink>
-    <MtouchExtraArgs>--bitcode=asmonly</MtouchExtraArgs>
+    <MtouchExtraArgs></MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchEnableBitcode>true</MtouchEnableBitcode>
   </PropertyGroup>
