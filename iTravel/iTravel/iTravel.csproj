@@ -44,7 +44,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>3e3cabc6-7625-4005-b133-2ffeeb05afd6</CodesignProvision>
+    <CodesignProvision>2fb97cf3-29c8-4b78-84a4-0b09c846d561</CodesignProvision>
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>
     <BuildIpa>true</BuildIpa>
