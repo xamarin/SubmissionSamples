@@ -69,7 +69,7 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignProvision>613b2677-7bc1-4161-b3f6-c9235eb1cc1f</CodesignProvision>
+    <CodesignProvision>60ea782a-9df0-41e0-91ef-53105681a8b8</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>

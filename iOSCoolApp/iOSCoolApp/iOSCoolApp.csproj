@@ -23,6 +23,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -34,7 +35,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
-    <CodesignProvision>3b5cdfe7-4a51-4b21-b1bd-3823279e04d6</CodesignProvision>
+    <CodesignProvision>1a3c72e0-bf0e-4be7-84a2-f8a48bec470e</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
@@ -48,6 +49,7 @@
     <MtouchArch>i386</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <MtouchLink>None</MtouchLink>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -63,7 +65,7 @@
     <MtouchProfiling>true</MtouchProfiling>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>3b5cdfe7-4a51-4b21-b1bd-3823279e04d6</CodesignProvision>
+    <CodesignProvision>1a3c72e0-bf0e-4be7-84a2-f8a48bec470e</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>

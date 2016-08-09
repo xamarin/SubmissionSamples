@@ -44,7 +44,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>a0df4a7c-23b9-4481-9010-f69584b267e3</CodesignProvision>
+    <CodesignProvision>9884757b-bc3b-4b95-91d6-ac98a211514c</CodesignProvision>
     <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -81,6 +81,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>9884757b-bc3b-4b95-91d6-ac98a211514c</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
