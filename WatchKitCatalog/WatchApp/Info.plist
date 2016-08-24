@@ -30,7 +30,7 @@
 	<key>WKWatchKitApp</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>8.2</string>
+	<string>1.0</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 </dict>
