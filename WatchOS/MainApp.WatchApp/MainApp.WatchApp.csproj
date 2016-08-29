@@ -106,6 +106,9 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-55.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-172.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-196.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

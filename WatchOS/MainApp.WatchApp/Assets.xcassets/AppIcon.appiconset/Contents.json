@@ -1,16 +1,19 @@
 {
   "images": [
     {
+      "filename": "icon-spotlight-29.png",
       "size": "29x29",
       "scale": "1x",
       "idiom": "iphone"
     },
     {
+      "filename": "icon-spotlight-29@2x.png",
       "size": "29x29",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
+      "filename": "icon-spotlight-29@3x.png",
       "size": "29x29",
       "scale": "3x",
       "idiom": "iphone"
