@@ -1,4 +1,4 @@
-﻿{
+{
   "assets" : [
     {
       "size" : "1280x768",
@@ -11,6 +11,12 @@
       "idiom" : "tv",
       "filename" : "App Icon - Small.imagestack",
       "role" : "primary-app-icon"
+    },
+    {
+      "size" : "2320x720",
+      "idiom" : "tv",
+      "filename" : "Top Shelf Image Wide.imageset",
+      "role" : "top-shelf-image-wide"
     },
     {
       "size" : "1920x720",
