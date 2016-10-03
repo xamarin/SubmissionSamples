@@ -24,7 +24,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>i386</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchHttpClientHandler>CFNetworkHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Legacy</MtouchTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchHttpClientHandler>CFNetworkHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Legacy</MtouchTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>True</DebugSymbols>
@@ -49,8 +52,9 @@
     <IpaPackageName></IpaPackageName>
     <MtouchI18n></MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
-    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchTlsProvider>Legacy</MtouchTlsProvider>
     <BuildIpa>true</BuildIpa>
+    <MtouchHttpClientHandler>CFNetworkHandler</MtouchHttpClientHandler>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -61,6 +65,8 @@
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignProvision>66697f98-5e19-4475-9653-356ac0dc024f</CodesignProvision>
+    <MtouchHttpClientHandler>CFNetworkHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Legacy</MtouchTlsProvider>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
