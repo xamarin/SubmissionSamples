@@ -8,7 +8,6 @@ namespace HttpClientSample {
 
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
-			Xamarin.Calabash.Start ();
 			return true;
 		}
 	}
