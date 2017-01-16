@@ -31,7 +31,7 @@
     <PackageSigningKey>Developer ID Installer</PackageSigningKey>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSignProvision>e97116eb-13d5-4145-8af0-4ea5fddc8c2d</CodeSignProvision>
+    <CodeSignProvision>Automatic</CodeSignProvision>
     <Profiling>false</Profiling>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">

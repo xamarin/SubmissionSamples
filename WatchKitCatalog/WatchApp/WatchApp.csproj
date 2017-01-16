@@ -47,9 +47,9 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>d3ca6c4b-83f7-4335-8d3a-8c24a1579233</CodesignProvision>
+    <CodesignProvision></CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -63,7 +63,7 @@
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchI18n>
     </MtouchI18n>
-    <CodesignProvision>d3ca6c4b-83f7-4335-8d3a-8c24a1579233</CodesignProvision>
+    <CodesignProvision>28ba97e7-97b7-4a46-873a-78d7050e5b81</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
