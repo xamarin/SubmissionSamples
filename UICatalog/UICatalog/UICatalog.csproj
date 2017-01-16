@@ -41,7 +41,7 @@
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>96c55a9a-c522-4947-96b7-348b78bb9b83</CodesignProvision>
+    <CodesignProvision>54876d26-7087-4219-b7e5-6e1f805625a4</CodesignProvision>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchExtraArgs></MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>

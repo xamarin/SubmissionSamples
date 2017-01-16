@@ -37,6 +37,7 @@
     <MtouchArch>i386</MtouchArch>
     <MtouchTlsProvider>Legacy</MtouchTlsProvider>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>True</DebugSymbols>
@@ -63,7 +64,7 @@
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignProvision>66697f98-5e19-4475-9653-356ac0dc024f</CodesignProvision>
+    <CodesignProvision>68480f1a-448b-4769-bf4e-49f2a4a2263a</CodesignProvision>
     <MtouchTlsProvider>Legacy</MtouchTlsProvider>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>

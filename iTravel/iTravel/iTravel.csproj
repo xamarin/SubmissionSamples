@@ -44,7 +44,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>e710e506-1f20-4624-ba64-d2f5965ba856</CodesignProvision>
+    <CodesignProvision>2aad091a-ddae-4b27-b775-c0f2158b0e34</CodesignProvision>
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>
     <BuildIpa>true</BuildIpa>
@@ -98,7 +98,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <BuildIpa>True</BuildIpa>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignProvision>2aad091a-ddae-4b27-b775-c0f2158b0e34</CodesignProvision>
     <CodesignKey>iPhone Distribution</CodesignKey>
     <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>

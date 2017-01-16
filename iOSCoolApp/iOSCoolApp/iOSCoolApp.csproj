@@ -35,7 +35,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
-    <CodesignProvision>1a3c72e0-bf0e-4be7-84a2-f8a48bec470e</CodesignProvision>
+    <CodesignProvision>51cb900e-b8ac-4c7f-9d9f-fa17560aa530</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
