@@ -49,7 +49,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <OnDemandResourcesInitialInstallTags>initial</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>prefetch</OnDemandResourcesPrefetchOrder>
-    <CodesignProvision>d317b340-801d-46fe-84f8-1a41690f9779</CodesignProvision>
+    <CodesignProvision>163e5a1e-03fd-4fc8-9dc9-095973f1c437</CodesignProvision>
     <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
