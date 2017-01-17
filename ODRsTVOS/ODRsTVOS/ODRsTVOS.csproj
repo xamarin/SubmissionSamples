@@ -30,7 +30,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <OnDemandResourcesInitialInstallTags>initial</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>prefetch</OnDemandResourcesPrefetchOrder>
-    <CodesignProvision>811247b7-44a8-4a49-94bc-ff4a9c90ab81</CodesignProvision>
+    <CodesignProvision>163e5a1e-03fd-4fc8-9dc9-095973f1c437</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
