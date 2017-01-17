@@ -48,7 +48,7 @@
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
-    <CodesignProvision>8bc3c321-da6b-457c-8bf6-6708384c80e0</CodesignProvision>
+    <CodesignProvision>d5398cd9-ec0b-45e8-909a-4a25e4f86c88</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
