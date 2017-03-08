@@ -1,0 +1,4 @@
+﻿<Properties StartupConfiguration="{1EDE20AD-579A-459C-92AE-1743FD608F52}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.iOSCoolApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.57ce11c580f8ffdf9a10967fbcc682e63c29d0b5" />
+</Properties>
