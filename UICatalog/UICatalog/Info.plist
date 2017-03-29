@@ -8,10 +8,6 @@
 	<string>com.xamarin.uicatalogII</string>
 	<key>CFBundleName</key>
 	<string>UICatalog</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
 	<key>GCSupportedGameControllers</key>
 	<array>
 		<dict>
@@ -43,5 +39,9 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/Brand Assets.brandassets</string>
+	<key>CFBundleShortVersionString</key>
+	<string>15.0</string>
+	<key>CFBundleVersion</key>
+	<string>5.0</string>
 </dict>
 </plist>

@@ -20,8 +20,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
@@ -37,9 +35,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchFloat32>true</MtouchFloat32>
-    <MtouchUseSGen>true</MtouchUseSGen>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <BuildIpa>true</BuildIpa>
     <CodesignProvision>54876d26-7087-4219-b7e5-6e1f805625a4</CodesignProvision>
     <MtouchLink>SdkOnly</MtouchLink>
@@ -56,9 +52,7 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchUseSGen>true</MtouchUseSGen>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -77,8 +71,6 @@
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
-    <MtouchUseSGen>true</MtouchUseSGen>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchProfiling>true</MtouchProfiling>
     <CodesignProvision>96c55a9a-c522-4947-96b7-348b78bb9b83</CodesignProvision>
   </PropertyGroup>
@@ -164,25 +156,27 @@
     <ImageAsset Include="Resources\Images.xcassets\search_icon.imageset\search_icon.png" />
     <ImageAsset Include="Resources\Images.xcassets\checkmark_icon.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\checkmark_icon.imageset\checkmark_icon.png" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\xamarin-large-back.png" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\xamarin-large-front.png" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back.png" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front.png" />
-    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf.png" />
   </ItemGroup>
@@ -200,6 +194,7 @@
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\" />
     <Folder Include="Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\" />
+    <Folder Include="Resources\Images.xcassets\Brand Assets.brandassets\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Images.xcassets\stepper_and_segment_background.imageset\Contents.json" />
