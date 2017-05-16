@@ -13,7 +13,7 @@ The samples in this directory optimized to be used by [submission_runner](https:
 * [tvOS Don't Link](./UICatalog_DontLink/)
 * [tvOS SceneKit](./SceneKitGame/)
 * [tvOS ODRs](./ODRsTVOS/)
-* [tvOS ODRs Extension](./ODRsTVOS_Extension
+* [tvOS ODRs Extension](./ODRsTVOS_Extension)
 
 Samples configuration
 ----------------------
