@@ -29,7 +29,6 @@
 			<key>IntentsSupported</key>
 			<array>
 				<string>INRequestRideIntent</string>
-				<string>INListRideOptionsIntent</string>
 				<string>INGetRideStatusIntent</string>
 			</array>
 		</dict>
