@@ -45,7 +45,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <OnDemandResourcesInitialInstallTags>initial</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>prefetch</OnDemandResourcesPrefetchOrder>
-    <CodesignProvision>ODRsTVOS Distribution</CodesignProvision>
+    <CodesignProvision>ODRsTVOS Sample2 Distribution</CodesignProvision>
     <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
