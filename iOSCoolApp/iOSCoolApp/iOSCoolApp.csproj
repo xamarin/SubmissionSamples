@@ -118,5 +118,6 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-72%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-167.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\AppStoreIcon1024.png" />
   </ItemGroup>
 </Project>

@@ -37,7 +37,7 @@
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>54876d26-7087-4219-b7e5-6e1f805625a4</CodesignProvision>
+    <CodesignProvision>UICatalog tvOS II</CodesignProvision>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchExtraArgs></MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -179,6 +179,12 @@
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf 2x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

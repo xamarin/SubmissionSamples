@@ -4,6 +4,11 @@
       "filename": "xamarin-large-back.png",
       "scale": "1x",
       "idiom": "tv"
+    },
+    {
+      "filename": "xamarin-large-back 2x.png",
+      "scale": "2x",
+      "idiom": "tv"
     }
   ],
   "info": {
