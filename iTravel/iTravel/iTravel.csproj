@@ -130,6 +130,8 @@
     <ImageAsset Include="Assets.xcassets\paris.dataset\paris.json" />
     <ImageAsset Include="Assets.xcassets\rotterdam.dataset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\rotterdam.dataset\rotterdam.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\AppStoreIcon1024.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
