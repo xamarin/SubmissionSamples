@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>ODRsTVOSExt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin360.ODRsTVOS.odrstvosext</string>
+	<string>com.xamarin360.ODRsTVOS2.odrstvosext</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleInfoDictionaryVersion</key>
