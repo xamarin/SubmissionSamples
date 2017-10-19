@@ -18,8 +18,6 @@
 	<string>MacCoolApp</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -34,5 +32,7 @@
 	<string>NSApplication</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.education</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1000</string>
 </dict>
 </plist>
