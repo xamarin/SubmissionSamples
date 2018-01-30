@@ -40,7 +40,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>17f3ff8b-1cb0-45b3-92c2-79a62b66ebfd</CodesignProvision>
+    <CodesignProvision>SceneKit tvOS</CodesignProvision>
     <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -73,7 +73,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>9884757b-bc3b-4b95-91d6-ac98a211514c</CodesignProvision>
+    <CodesignProvision>SceneKit tvOS</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -108,6 +108,8 @@
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf 2x.png" />
   </ItemGroup>
   <ItemGroup>
     <SceneKitAsset Include="art.scnassets\ship.dae" />
