@@ -37,7 +37,7 @@
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>54876d26-7087-4219-b7e5-6e1f805625a4</CodesignProvision>
+    <CodesignProvision>UICatalog tvOS II</CodesignProvision>
     <MtouchLink>None</MtouchLink>
     <MtouchExtraArgs></MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
