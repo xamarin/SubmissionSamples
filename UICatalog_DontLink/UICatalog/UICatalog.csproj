@@ -179,6 +179,8 @@
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
