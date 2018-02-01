@@ -52,6 +52,7 @@
     <CodeSignProvision>cc09f1f3-7939-4e0e-a5fc-807db3c1ef1c</CodeSignProvision>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <Profiling>false</Profiling>
+    <MonoBundlingExtraArgs>--linkplatform</MonoBundlingExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
