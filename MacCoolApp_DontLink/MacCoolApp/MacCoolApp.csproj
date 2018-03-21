@@ -54,6 +54,7 @@
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <Profiling>false</Profiling>
     <AOTMode>None</AOTMode>
+    <MonoBundlingExtraArgs>-linkplatform</MonoBundlingExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
