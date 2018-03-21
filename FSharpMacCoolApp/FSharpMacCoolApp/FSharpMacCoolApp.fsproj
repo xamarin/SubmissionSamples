@@ -30,6 +30,7 @@
     <PlatformTarget>
     </PlatformTarget>
     <PackageSigningKey>Developer ID Installer</PackageSigningKey>
+    <AOTMode>None</AOTMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -51,9 +52,10 @@
     <IncludeMonoRuntime>true</IncludeMonoRuntime>
     <PlatformTarget>
     </PlatformTarget>
-    <CodeSignProvision>cc09f1f3-7939-4e0e-a5fc-807db3c1ef1c</CodeSignProvision>
+    <CodeSignProvision>MacPublishWorkflow</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Peter Beaman (ZYWNCWEKU5)</PackageSigningKey>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
+    <AOTMode>None</AOTMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,22 +64,16 @@
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.FSharp.targets" />
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-  </ItemGroup>
-  <ItemGroup>
     <InterfaceDefinition Include="MainMenu.xib" />
     <InterfaceDefinition Include="MainWindow.xib" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="MainWindow.fs" />
     <Compile Include="MainWindowController.fs" />
     <Compile Include="AppDelegate.fs" />
     <Compile Include="Main.fs" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.FSharp.targets" />
-  <ItemGroup>
     <BundleResource Include="Resources\MyIcon.icns" />
   </ItemGroup>
 </Project>
