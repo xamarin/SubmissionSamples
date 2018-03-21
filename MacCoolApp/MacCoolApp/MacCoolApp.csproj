@@ -34,6 +34,7 @@
     <CodeSignProvision>Automatic</CodeSignProvision>
     <Profiling>false</Profiling>
     <HttpClientHandler>HttpClientHandler</HttpClientHandler>
+    <AOTMode>None</AOTMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
@@ -51,11 +52,12 @@
     <EnablePackageSigning>true</EnablePackageSigning>
     <PackageSigningKey>3rd Party Mac Developer Installer: Peter Beaman (ZYWNCWEKU5)</PackageSigningKey>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSignProvision>cc09f1f3-7939-4e0e-a5fc-807db3c1ef1c</CodeSignProvision>
+    <CodeSignProvision>MacPublishWorkflow</CodeSignProvision>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <Profiling>false</Profiling>
     <HttpClientHandler>HttpClientHandler</HttpClientHandler>
     <CodeSignResourceRules></CodeSignResourceRules>
+    <AOTMode>None</AOTMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
