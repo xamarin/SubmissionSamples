@@ -24,7 +24,7 @@ All samples in this repository should be configured to use:
 * Valid provisioning profile
 * iOS IPA Option should be set to build iTunes package archive
 
-Be very accurate with any sample changes since it can affect submission test results.
+Excersice caution while changing samples since it can affect submission test results.
 
 ------------------
 Original samples can be found in [monotouch-samples](https://github.com/xamarin/monotouch-samples) repository.
