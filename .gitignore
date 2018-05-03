@@ -5,6 +5,7 @@
 *.nib
 *.suo
 
+*/.vs
 packages/
 [Bb]uild/
 */bin/*
