@@ -72,7 +72,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignProvision>96c55a9a-c522-4947-96b7-348b78bb9b83</CodesignProvision>
+    <CodesignProvision>UICatalog tvOS II</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
