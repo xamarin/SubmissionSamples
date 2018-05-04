@@ -112,5 +112,6 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-44x44%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-86x86%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-98x98%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\app-store-icon.png" />
   </ItemGroup>
 </Project>

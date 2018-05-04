@@ -96,6 +96,9 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%403x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-app-60%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-app-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\app-store-icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
