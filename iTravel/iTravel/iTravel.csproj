@@ -24,7 +24,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchProfiling>true</MtouchProfiling>
     <MtouchLink>None</MtouchLink>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>i386, x86_64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
     <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
@@ -51,11 +51,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchLink>None</MtouchLink>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>i386, x86_64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>3e3cabc6-7625-4005-b133-2ffeeb05afd6</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,7 +65,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
@@ -78,7 +77,6 @@
     <PlatformTarget>x86</PlatformTarget>
     <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
-    <CodesignProvision>e710e506-1f20-4624-ba64-d2f5965ba856</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -122,16 +120,22 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-40%403x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-app-60%402x.png" />
     <ImageAsset Include="Assets.xcassets\istanbul.dataset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\istanbul.dataset\istanbul.json" />
     <ImageAsset Include="Assets.xcassets\paris.dataset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\paris.dataset\paris.json" />
     <ImageAsset Include="Assets.xcassets\rotterdam.dataset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\rotterdam.dataset\rotterdam.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\app-store-icon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-app-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-29.png" />
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-spotlight-40.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\AppStoreIcon1024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-app-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon-app-76%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
