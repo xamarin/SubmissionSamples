@@ -35,12 +35,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>iTravel Distribution2</CodesignProvision>
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>
     <BuildIpa>true</BuildIpa>
@@ -75,35 +74,6 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
-    <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
-    <DebugType>none</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>False</ConsolePause>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <BuildIpa>True</BuildIpa>
-    <CodesignProvision>2aad091a-ddae-4b27-b775-c0f2158b0e34</CodesignProvision>
-    <CodesignKey>iPhone Distribution</CodesignKey>
-    <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
-    <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
-    <DebugType>none</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>bin\iPhone\AppStore</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>False</ConsolePause>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>Automatic:AppStore</CodesignProvision>
-    <CodesignKey>iPhone Distribution</CodesignKey>
     <OnDemandResourcesInitialInstallTags>Istanbul</OnDemandResourcesInitialInstallTags>
     <OnDemandResourcesPrefetchOrder>Paris</OnDemandResourcesPrefetchOrder>
   </PropertyGroup>

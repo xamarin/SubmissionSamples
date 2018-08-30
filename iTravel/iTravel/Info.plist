@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>iTravel</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin360.iTravel2</string>
+	<string>com.xamarin.iTravelQA</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -33,6 +33,6 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleVersion</key>
-	<string>1.7</string>
+	<string>1.0</string>
 </dict>
 </plist>
