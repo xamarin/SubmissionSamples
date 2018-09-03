@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>intentsphone</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.intentsxamsample.intentsphone</string>
+	<string>com.xamarin.intentssample.intentsphone</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleInfoDictionaryVersion</key>
