@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>MainApp.WatchAppExtension</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.WatchKitCatalogSubmit.WatchApp.Extension</string>
+	<string>com.xamarin.watch-kit-catalog.WatchApp.Extension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,7 +21,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.xamarin.WatchKitCatalogSubmit.WatchApp</string>
+			<string>com.xamarin.watch-kit-catalog.WatchApp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
