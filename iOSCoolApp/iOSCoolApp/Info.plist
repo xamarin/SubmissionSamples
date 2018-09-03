@@ -6,6 +6,8 @@
 	<string>iOSCoolApp</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.iospublishworkflow</string>
+	<key>CFBundleName</key>
+	<string>iOSCoolApp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -44,7 +46,5 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
-	<key>CFBundleName</key>
-	<string>iOSCoolApp</string>
 </dict>
 </plist>
