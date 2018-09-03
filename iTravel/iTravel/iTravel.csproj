@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>iPhone Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
@@ -43,6 +43,7 @@
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>
     <BuildIpa>true</BuildIpa>
+    <CodesignProvision>iTravel - Distribution Profile</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>

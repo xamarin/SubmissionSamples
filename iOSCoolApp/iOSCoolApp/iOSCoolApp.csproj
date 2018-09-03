@@ -38,7 +38,7 @@
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
-    <CodesignProvision>iOS Publish Workflow Distribution Profile</CodesignProvision>
+    <CodesignProvision>iOS Publish Workflow - Distribution Profile</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
