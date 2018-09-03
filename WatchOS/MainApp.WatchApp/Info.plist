@@ -11,7 +11,7 @@
 	<key>CFBundleName</key>
 	<string>WatchKit Catalog Watch App</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>MinimumOSVersion</key>
 	<string>2.0</string>
 	<key>UISupportedInterfaceOrientations</key>
