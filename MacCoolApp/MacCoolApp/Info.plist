@@ -9,21 +9,19 @@
 	<key>CFBundleIconFile</key>
 	<string>MyIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin360.macpublishworkflow</string>
+	<string>com.xamarin.mac-publish-workflow</string>
 	<key>CFBundleExecutable</key>
 	<string>MacCoolApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MacCoolApp</string>
+	<string>Mac Publish Workflow</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.10</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>olegoid</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>intentsxamsample.watchkitappExtension</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.intentsxamsample.watchkitapp.watchkitextension</string>
+	<string>com.xamarin.intentssample.watchkitapp.watchkitextension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,7 +21,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.xamarin.intentsxamsample.watchkitapp</string>
+			<string>com.xamarin.intentssample.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>

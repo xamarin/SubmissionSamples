@@ -2,16 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDisplayName</key>
-	<string>MainApp.WatchApp</string>
-	<key>CFBundleName</key>
-	<string>MainApp.WatchApp</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.WatchKitCatalogSubmit.WatchApp</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>MainApp.WatchApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.xamarin.watch-kit-catalog.watchkitapp</string>
+	<key>CFBundleName</key>
+	<string>WatchKit Catalog Watch App</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
@@ -22,10 +20,12 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.xamarin.WatchKitCatalogSubmit</string>
+	<string>com.xamarin.watch-kit-catalog</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 </dict>
 </plist>
