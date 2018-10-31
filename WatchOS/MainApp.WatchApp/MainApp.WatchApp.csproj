@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{285D3FD1-7C38-4B7D-9B33-B8ECF94A4F58}</ProjectGuid>
+    <ProjectGuid>{C58DEC95-5551-46B8-BDDB-9659D6BFCFA2}</ProjectGuid>
     <ProjectTypeGuids>{A9A6EAC2-568B-4F3E-869D-32CBBA122DF2};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>MainApp.WatchApp</RootNamespace>
@@ -20,13 +20,15 @@
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <MtouchProfiling>true</MtouchProfiling>
+    <IOSDebuggerPort>17512</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchTlsProvider>Default</MtouchTlsProvider>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
+    <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
+    <MtouchVerbosity></MtouchVerbosity>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -35,16 +37,16 @@
     <DefineConstants></DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchFloat32>true</MtouchFloat32>
     <MtouchEnableBitcode>true</MtouchEnableBitcode>
-    <CodesignEntitlements></CodesignEntitlements>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchTlsProvider>Default</MtouchTlsProvider>
-    <CodesignProvision>WatchKit Catalog Watch App - Distribution Profile</CodesignProvision>
+    <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
+    <MtouchVerbosity></MtouchVerbosity>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -54,10 +56,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
+    <MtouchVerbosity></MtouchVerbosity>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,17 +74,20 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <MtouchProfiling>true</MtouchProfiling>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>28208</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
+    <MtouchVerbosity></MtouchVerbosity>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Glance' ">
-    <WatchKitExecutionMode>Glance</WatchKitExecutionMode>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Notification' ">
+    <WatchKitExecutionMode>Notification</WatchKitExecutionMode>
+    <NotificationPayload>..\MainApp.WatchAppExtension\PushNotificationPayload.json</NotificationPayload>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -91,16 +98,6 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-40%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-44%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-48.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-55.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-172.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-196.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%403x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\app-store-icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -115,7 +112,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MainApp.WatchAppExtension\MainApp.WatchAppExtension.csproj">
       <IsAppExtension>true</IsAppExtension>
-      <Project>{3C96F4D5-6FB9-4D48-AB37-B33B5C7F25B6}</Project>
+      <Project>{F0A53255-FE23-451E-B41C-AE2BB3EFD54F}</Project>
       <Name>MainApp.WatchAppExtension</Name>
     </ProjectReference>
   </ItemGroup>

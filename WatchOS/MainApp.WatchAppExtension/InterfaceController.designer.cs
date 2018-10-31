@@ -8,11 +8,11 @@ using Foundation;
 
 namespace MainApp.WatchAppExtension
 {
-	[Register("InterfaceController")]
-	partial class InterfaceController
-	{
-		void ReleaseDesignerOutlets()
-		{
-		}
-	}
+    [Register("InterfaceController")]
+    partial class InterfaceController
+    {
+        void ReleaseDesignerOutlets()
+        {
+        }
+    }
 }
