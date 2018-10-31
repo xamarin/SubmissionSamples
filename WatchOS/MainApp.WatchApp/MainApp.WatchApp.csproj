@@ -98,6 +98,16 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\app-store-icon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-48.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-55.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-spotlight-29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-44%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-172.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-196.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-216.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
