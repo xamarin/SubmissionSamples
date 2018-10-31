@@ -4,15 +4,11 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>MainApp.WatchApp</string>
-	<key>CFBundleName</key>
-	<string>MainApp.WatchApp</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.watch-kit-catalog.watchkitapp</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
 	<string>5.0</string>
@@ -27,5 +23,9 @@
 	<true/>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleName</key>
+	<string>WatchKit Catalog Watch App</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
 </dict>
 </plist>

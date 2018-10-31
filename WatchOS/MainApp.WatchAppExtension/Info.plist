@@ -5,14 +5,12 @@
 	<key>CFBundleDisplayName</key>
 	<string>MainApp.WatchAppExtension</string>
 	<key>CFBundleName</key>
-	<string>MainApp.WatchAppExtension</string>
+	<string>WatchKit Catalog Watch App Extension</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.watch-kit-catalog.watchkitapp.watchkitextension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
 	<string>5.0</string>
@@ -28,5 +26,7 @@
 	</dict>
 	<key>WKExtensionDelegateClassName</key>
 	<string>ExtensionDelegate</string>
+	<key>CFBundleVersion</key>
+	<string>11.7</string>
 </dict>
 </plist>

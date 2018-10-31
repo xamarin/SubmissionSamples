@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>MainApp</string>
+	<string>WatchKit Catalog</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.watch-kit-catalog</string>
 	<key>CFBundleShortVersionString</key>
