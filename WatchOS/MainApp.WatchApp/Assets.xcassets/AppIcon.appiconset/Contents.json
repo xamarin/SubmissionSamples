@@ -148,6 +148,7 @@
     },
     {
       "role": "appLauncher",
+      "filename": "icon-watch-100.png",
       "size": "50x50",
       "subtype": "44mm",
       "scale": "2x",

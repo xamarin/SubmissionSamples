@@ -109,6 +109,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-172.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-196.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-216.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-watch-100.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
