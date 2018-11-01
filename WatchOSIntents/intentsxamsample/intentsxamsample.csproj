@@ -101,9 +101,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\app-store-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
