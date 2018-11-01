@@ -8,11 +8,11 @@ using Foundation;
 
 namespace MainApp.WatchAppExtension
 {
-	[Register("NotificationController")]
-	partial class NotificationController
-	{
-		void ReleaseDesignerOutlets()
-		{
-		}
-	}
+    [Register("NotificationController")]
+    partial class NotificationController
+    {
+        void ReleaseDesignerOutlets()
+        {
+        }
+    }
 }

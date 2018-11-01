@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>MainApp.WatchAppExtension</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.watch-kit-catalog.watchkitapp.watchkitextension</string>
 	<key>CFBundleName</key>
 	<string>WatchKit Catalog Watch App Extension</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.xamarin.watch-kit-catalog.watchkitapp.watchkitextension</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
 	<key>MinimumOSVersion</key>
-	<string>2.0</string>
+	<string>5.0</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -26,9 +24,9 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
-	<key>RemoteInterfacePrincipleClass</key>
-	<string>InterfaceController</string>
 	<key>WKExtensionDelegateClassName</key>
 	<string>ExtensionDelegate</string>
+	<key>CFBundleVersion</key>
+	<string>11.7</string>
 </dict>
 </plist>
