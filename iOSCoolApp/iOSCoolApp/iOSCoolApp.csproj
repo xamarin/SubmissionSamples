@@ -38,7 +38,7 @@
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
-    <CodesignProvision>iOS Publish Workflow - Distribution Profile</CodesignProvision>
+    <CodesignProvision>iOS Publish Workflow II - Distribution Profile</CodesignProvision>
     <MtouchExtraArgs>--interpreter</MtouchExtraArgs>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
