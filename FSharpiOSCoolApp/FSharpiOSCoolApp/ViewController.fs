@@ -1,7 +1,6 @@
 ﻿namespace FSharpiOSCoolApp
 
 open System
-open System.Drawing
 
 open Foundation
 open UIKit
