@@ -18,8 +18,6 @@
     <ErrorReport>prompt</ErrorReport>
     <MtouchArch>i386</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <MtouchUseSGen>true</MtouchUseSGen>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
@@ -39,13 +37,10 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
-    <MtouchUseSGen>true</MtouchUseSGen>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignKey>iPhone Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <PlatformTarget>
     </PlatformTarget>
-    <CodesignProvision>51cb900e-b8ac-4c7f-9d9f-fa17560aa530</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
@@ -60,8 +55,6 @@
     <GenerateTailCalls>true</GenerateTailCalls>
     <MtouchArch>i386</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <MtouchUseSGen>true</MtouchUseSGen>
     <CodesignKey>iPhone Developer</CodesignKey>
     <ConsolePause>false</ConsolePause>
     <PlatformTarget>
@@ -76,13 +69,11 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchFloat32>true</MtouchFloat32>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Distribution: Peter Beaman (ZYWNCWEKU5)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchUseSGen>true</MtouchUseSGen>
     <PlatformTarget>
     </PlatformTarget>
     <CodesignProvision>1a3c72e0-bf0e-4be7-84a2-f8a48bec470e</CodesignProvision>
@@ -95,21 +86,9 @@
     <Reference Include="FSharp.Core" />
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
-  <ItemGroup>
-    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
-    <InterfaceDefinition Include="Main.storyboard" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Info.plist" />
-    <None Include="Entitlements.plist" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="ViewController.fs" />
-    <Compile Include="AppDelegate.fs" />
-    <Compile Include="Main.fs" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets" />
   <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-57.png" />
@@ -126,5 +105,11 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%403x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-167.png" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <Compile Include="ViewController.fs" />
+    <Compile Include="AppDelegate.fs" />
+    <Compile Include="Main.fs" />
   </ItemGroup>
 </Project>
