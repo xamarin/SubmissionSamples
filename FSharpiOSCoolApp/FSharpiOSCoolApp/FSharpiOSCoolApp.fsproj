@@ -105,6 +105,7 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%403x.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon-app-167.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\AppStoreIcon1024.png" />
     <InterfaceDefinition Include="Main.storyboard" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
