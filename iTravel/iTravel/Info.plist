@@ -7,7 +7,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.xamarin.iTravelQA</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.10438559</string>
+	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -33,7 +33,7 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleVersion</key>
-	<string>1.10438559</string>
+	<string>1.0</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>Calendar</string>
 	<key>NSContactsUsageDescription</key>
