@@ -28,9 +28,11 @@
     <UseSGen>true</UseSGen>
     <UseRefCounting>true</UseRefCounting>
     <PlatformTarget>x86</PlatformTarget>
-    <AOTMode>None</AOTMode>
+    <AOTMode>All</AOTMode>
     <PackageSigningKey>3rd Party Mac Developer Installer</PackageSigningKey>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
+    <HybridAOT>true</HybridAOT>
+    <LinkMode>SdkOnly</LinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
@@ -49,9 +51,10 @@
     <CodeSigningKey>3rd Party Mac Developer Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
     <CodeSignProvision>Mac Cool App - Distribution Profile</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
-    <AOTMode>None</AOTMode>
+    <AOTMode>All</AOTMode>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
+    <HybridAOT>true</HybridAOT>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
