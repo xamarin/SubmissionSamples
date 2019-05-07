@@ -49,7 +49,7 @@
     <LinkMode>SdkOnly</LinkMode>
     <PlatformTarget>x86</PlatformTarget>
     <CodeSigningKey>3rd Party Mac Developer Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
-    <CodeSignProvision>Mac Cool App - Distribution Profile</CodeSignProvision>
+    <CodeSignProvision>Mac Cool App II - Distribution Profile</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
     <AOTMode>All</AOTMode>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
