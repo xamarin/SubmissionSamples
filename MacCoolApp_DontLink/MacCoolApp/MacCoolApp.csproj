@@ -51,7 +51,6 @@
     <CodeSignProvision>Mac Cool App - Distribution Profile</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
     <AOTMode>None</AOTMode>
-    <MonoBundlingExtraArgs>-linkplatform</MonoBundlingExtraArgs>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
   </PropertyGroup>
   <ItemGroup>
