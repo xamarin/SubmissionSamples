@@ -67,7 +67,11 @@
 		<namespace fullname="Network" />
 		<namespace fullname="NetworkExtension" />
 		<namespace fullname="NotificationCenter" />
+		<!--
+			we need to exclude Messaging.* otherwise some struct are left, which means the namespace is present,
+			which means the /System/Library/Frameworks/QTKit.framework/Versions/A/QTKit framework is linked into the app
 		<namespace fullname="ObjCRuntime" />
+		-->
 		<namespace fullname="OpenGL" />
 		<namespace fullname="OpenTK" />
 		<namespace fullname="PdfKit" />
