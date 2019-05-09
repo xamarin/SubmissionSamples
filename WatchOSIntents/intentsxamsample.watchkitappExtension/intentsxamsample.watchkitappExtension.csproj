@@ -81,6 +81,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <MtouchExtraArgs>--abi=armv7k+llvm,arm64_32+llvm</MtouchExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

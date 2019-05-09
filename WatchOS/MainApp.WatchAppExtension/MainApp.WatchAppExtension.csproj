@@ -48,6 +48,7 @@
     <IOSDebugOverWiFi>false</IOSDebugOverWiFi>
     <MtouchVerbosity></MtouchVerbosity>
     <CodesignProvision>WatchKit Catalog Watch App Extension</CodesignProvision>
+    <MtouchExtraArgs>--abi=armv7k+llvm,arm64_32+llvm</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
