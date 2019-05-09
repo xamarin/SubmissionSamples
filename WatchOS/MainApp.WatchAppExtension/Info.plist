@@ -27,6 +27,6 @@
 	<key>WKExtensionDelegateClassName</key>
 	<string>ExtensionDelegate</string>
 	<key>CFBundleVersion</key>
-	<string>11.7</string>
+	<string>1.0</string>
 </dict>
 </plist>
