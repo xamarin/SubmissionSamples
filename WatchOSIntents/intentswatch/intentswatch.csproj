@@ -44,7 +44,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchExtraArgs></MtouchExtraArgs>
+    <MtouchExtraArgs>--abi=armv7k+llvm,arm64_32+llvm</MtouchExtraArgs>
     <CodesignProvision>Intents Sample - Distribution Profile</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -82,7 +82,6 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <MtouchExtraArgs></MtouchExtraArgs>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

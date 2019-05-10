@@ -38,7 +38,10 @@
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
-    <CodesignProvision>iOS Publish Workflow - Distribution Profile</CodesignProvision>
+    <CodesignProvision>iOS Publish Workflow II - Distribution Profile</CodesignProvision>
+    <MtouchExtraArgs>--interpreter</MtouchExtraArgs>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -68,6 +71,8 @@
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>
+    <MtouchExtraArgs>--interpreter</MtouchExtraArgs>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

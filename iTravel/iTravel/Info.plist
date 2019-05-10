@@ -34,5 +34,19 @@
 	<string>Assets.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Calendar</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Music</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Siri</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location (always)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location (in use)</string>
 </dict>
 </plist>

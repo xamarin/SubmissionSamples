@@ -45,6 +45,7 @@
     <MtouchArch>ARMv7k</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <CodesignProvision>Intents Sample - Distribution Profile</CodesignProvision>
+    <MtouchExtraArgs>--abi=armv7k+llvm,arm64_32+llvm</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
