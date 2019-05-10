@@ -1,7 +1,7 @@
 <linker>
     <!--
 		QuickTime and QTKit were deprecated by Apple and cannot be used for AppStore applications.
-		So we can't use "Don't Link" ddirectly. The closest thing is to use "Link Framework SDKs Only"
+		So we can't use "Don't Link" directly. The closest thing is to use "Link Framework SDKs Only"
 		and preserve everything, except the QuickTime and QTKit namespaces, inside Xamarin.Mac
 	-->
 	<assembly fullname="Xamarin.Mac">
