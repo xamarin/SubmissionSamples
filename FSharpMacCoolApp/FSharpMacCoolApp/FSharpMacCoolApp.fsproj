@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <EnableCodeSigning>false</EnableCodeSigning>
-    <CodeSigningKey>Mac Developer</CodeSigningKey>
+    <CodeSigningKey>Developer ID Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
     <CreatePackage>false</CreatePackage>
     <EnablePackageSigning>false</EnablePackageSigning>
     <IncludeMonoRuntime>false</IncludeMonoRuntime>
@@ -30,6 +30,8 @@
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
     <LinkMode>None</LinkMode>
     <AOTMode>None</AOTMode>
+    <PackageSigningKey>Developer ID Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
@@ -47,11 +49,11 @@
     <PlatformTarget></PlatformTarget>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSigningKey>3rd Party Mac Developer Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
-    <CodeSignProvision>Mac Cool App - Distribution Profile</CodeSignProvision>
-    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+    <CodeSigningKey>Developer ID Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
+    <PackageSigningKey>Developer ID Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <AOTMode>None</AOTMode>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
