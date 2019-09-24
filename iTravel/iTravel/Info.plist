@@ -50,5 +50,7 @@
 	<string>Location (in use)</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>We need your bluetooh device to give better service.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We always need your bluetooh device to give better service.</string>
 </dict>
 </plist>
