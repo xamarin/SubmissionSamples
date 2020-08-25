@@ -48,7 +48,7 @@
     <UseRefCounting>true</UseRefCounting>
     <LinkMode>SdkOnly</LinkMode>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
-    <CodeSigningKey>3rd Party Mac Developer Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
+    <CodeSigningKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
     <CodeSignProvision>Mac Cool App - Distribution Profile</CodeSignProvision>
     <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
     <AOTMode>None</AOTMode>

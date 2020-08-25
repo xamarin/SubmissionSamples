@@ -35,7 +35,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignKey>iPhone Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <BuildIpa>true</BuildIpa>
     <CodesignProvision>UICatalog III - Distribution Profile</CodesignProvision>
     <MtouchLink>None</MtouchLink>
