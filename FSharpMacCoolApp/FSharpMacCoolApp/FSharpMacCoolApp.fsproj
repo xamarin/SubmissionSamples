@@ -49,8 +49,8 @@
     <PlatformTarget></PlatformTarget>
     <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
     <XamMacArch>x86_64</XamMacArch>
-    <CodeSigningKey>Apple Development: Luis Aguilera (PKTN6CD57Y)</CodeSigningKey>
-    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+    <CodeSigningKey>Developer ID Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
+    <PackageSigningKey>Developer ID Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
     <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
     <AOTMode>None</AOTMode>
     <UseHardenedRuntime>true</UseHardenedRuntime>
