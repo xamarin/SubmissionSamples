@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-maccatalyst</TargetFramework>
+    <OutputType>Exe</OutputType>
+
+    <ApplicationTitle>MyCatalystApp</ApplicationTitle>
+    <ApplicationId>com.xamarin.mycatalystapp</ApplicationId>
+
+    <CreatePackage>true</CreatePackage>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodeSignProvision>My Catalyst App (Dist)</CodeSignProvision>
+    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+  </PropertyGroup>
+</Project>
