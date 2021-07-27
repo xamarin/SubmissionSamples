@@ -1,0 +1,4 @@
+NuGet.config
+global.json
+*.binlog
+
