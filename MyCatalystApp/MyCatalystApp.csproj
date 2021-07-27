@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0-maccatalyst</TargetFramework>
     <OutputType>Exe</OutputType>
+    <MtouchLink>SdkOnly</MtouchLink>
 
     <ApplicationTitle>MyCatalystApp</ApplicationTitle>
     <ApplicationId>com.xamarin.mycatalystapp</ApplicationId>
