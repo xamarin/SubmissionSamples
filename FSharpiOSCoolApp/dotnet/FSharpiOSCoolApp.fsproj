@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? F# support
+    -->
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharpiOSCoolApp</RootNamespace>
+    <AssemblyName>FSharpiOSCoolApp</AssemblyName>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <GenerateTailCalls>true</GenerateTailCalls>
+
+    <SourceDirectory>../FSharpiOSCoolApp/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InterfaceDefinition Include="$(SourceDirectory)Resources\LaunchScreen.xib" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-57.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-60%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-72.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-72%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-76.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-76%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-40.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-spotlight-40%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-spp-57%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-watch-29%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\icon-app-167.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\AppIcons.appiconset\AppStoreIcon1024.png" />
+    <InterfaceDefinition Include="$(SourceDirectory)Main.storyboard" />
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+    <Compile Include="$(SourceDirectory)ViewController.fs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.fs" />
+    <Compile Include="$(SourceDirectory)Main.fs" />
+  </ItemGroup>
+</Project>
