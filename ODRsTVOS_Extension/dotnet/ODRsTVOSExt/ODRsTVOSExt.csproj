@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? the linker is disabled and all symbols are present in the binary
+    -->
+    <TargetFramework>net6.0-tvos</TargetFramework>
+    <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
+    <RootNamespace>ODRsTVOSExt</RootNamespace>
+    <AssemblyName>ODRsTVOSExt</AssemblyName>
+    <IsAppExtension>true</IsAppExtension>
+
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodesignProvision>ODR tvOS Extension - Distribution Profile (.NET)</CodesignProvision>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchEnableBitcode>true</MtouchEnableBitcode>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+
+    <SourceDirectory>../../ODRsTVOSExt/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)ServiceProvider.cs" />
+  </ItemGroup>
+</Project>
+

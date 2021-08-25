@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? the linker is disabled and all symbols are present in the binary
+    -->
+    <TargetFramework>net6.0-tvos</TargetFramework>
+    <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ODRsTVOS</RootNamespace>
+    <AssemblyName>ODRsTVOS</AssemblyName>
+
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodesignProvision>ODR tvOS - Distribution Profile (.NET)</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchEnableBitcode>true</MtouchEnableBitcode>
+    <OnDemandResourcesInitialInstallTags>initial</OnDemandResourcesInitialInstallTags>
+    <OnDemandResourcesPrefetchOrder>prefetch</OnDemandResourcesPrefetchOrder>
+
+    <SourceDirectory>../../ODRsTVOS/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\LaunchImages.launchimage\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestImagesAsset.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestDataAsset.dataset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Atlas.spriteatlas\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Atlas.spriteatlas\Sprite.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Atlas.spriteatlas\Sprite.imageset\icon-spotlight-29.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Atlas.spriteatlas\Sprite.imageset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Atlas.spriteatlas\Sprite.imageset\icon-spotlight-29%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestDataAsset.dataset\rotterdam.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestImagesAsset.imageset\Istanbul_01.jpg" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestImagesAsset.imageset\Istanbul_02.jpg" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\TestImagesAsset.imageset\Istanbul_03.jpg" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\xamarin-large-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\xamarin-large-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf 2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)Main.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.cs" />
+    <Compile Include="$(SourceDirectory)ViewController.cs" />
+    <Compile Include="$(SourceDirectory)ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="$(SourceDirectory)Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris_01.jpg">
+      <ResourceTags>initial</ResourceTags>
+      <Link>Resources\Paris_01.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris_02.jpg">
+      <ResourceTags>initial</ResourceTags>
+      <Link>Resources\Paris_02.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris_03.jpg">
+      <ResourceTags>initial</ResourceTags>
+      <Link>Resources\Paris_03.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris_04.jpg">
+      <ResourceTags>initial</ResourceTags>
+      <Link>Resources\Paris_04.jpg</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ODRsTVOSExt\ODRsTVOSExt.csproj" />
+  </ItemGroup>
+</Project>
+
