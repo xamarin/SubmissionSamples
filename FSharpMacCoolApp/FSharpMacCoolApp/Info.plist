@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Mac Publish Workflow</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.mac-publish-workflow</string>
+	<string>com.xamarin.mac-notarization-workflow</string>
 	<key>CFBundleIconFile</key>
 	<string>MyIcon</string>
 	<key>CFBundleShortVersionString</key>
