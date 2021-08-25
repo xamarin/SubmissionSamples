@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? F# and notarization (it's not in the App Store [Connect])
+    -->
+    <TargetFramework>net6.0-macos</TargetFramework>
+    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharpMacCoolApp</RootNamespace>
+    <AssemblyName>FSharpMacCoolApp</AssemblyName>
+
+    <CreatePackage>true</CreatePackage>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodeSigningKey>Developer ID Application: Luis Aguilera (DPXCPAGVTZ)</CodeSigningKey>
+    <PackageSigningKey>Developer ID Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+    <LinkMode>SdkOnly</LinkMode>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
+    <GenerateTailCalls>true</GenerateTailCalls>
+    <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
+
+    <SourceDirectory>../FSharpMacCoolApp/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+    <InterfaceDefinition Include="$(SourceDirectory)MainMenu.xib" />
+    <InterfaceDefinition Include="$(SourceDirectory)MainWindow.xib" />
+    <Compile Include="$(SourceDirectory)MainWindow.fs" />
+    <Compile Include="$(SourceDirectory)MainWindowController.fs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.fs" />
+    <Compile Include="$(SourceDirectory)Main.fs" />
+    <BundleResource Include="$(SourceDirectory)Resources\MyIcon.icns" Link="Resources\MyIcon.icns" />
+  </ItemGroup>
+</Project>
+
