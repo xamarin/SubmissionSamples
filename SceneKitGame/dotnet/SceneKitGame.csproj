@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-tvos</TargetFramework>
+    <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SceneKitGame</RootNamespace>
+    <AssemblyName>SceneKitGame</AssemblyName>
+
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>Scenekit tvOS - Distribution Profile (.NET)</CodesignProvision>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchEnableBitcode>true</MtouchEnableBitcode>
+
+    <SourceDirectory>../SceneKitGame/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\LaunchImages.launchimage\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\LaunchImages.launchimage\LaunchImage.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\xamarin-large-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\xamarin-large-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <SceneKitAsset Include="$(SourceDirectory)art.scnassets\ship.dae" />
+    <SceneKitAsset Include="$(SourceDirectory)art.scnassets\texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)Main.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.cs" />
+    <Compile Include="$(SourceDirectory)GameViewController.cs" />
+    <Compile Include="$(SourceDirectory)GameViewController.designer.cs">
+      <DependentUpon>GameViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="$(SourceDirectory)Main.storyboard" />
+  </ItemGroup>
+</Project>
