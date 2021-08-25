@@ -5,7 +5,9 @@
         // We test this because ? interpreter support
     -->
     <TargetFramework>net6.0-ios</TargetFramework>
-    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
+    <!-- Due to https://github.com/dotnet/runtime/issues/58112, we can only use ios-arm64 here for now -->
+    <!-- <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers> -->
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <RootNamespace>iOSCoolApp</RootNamespace>
     <AssemblyName>iOSCoolApp</AssemblyName>
