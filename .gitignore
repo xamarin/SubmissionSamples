@@ -1,3 +1,6 @@
+*/dotnet/global.json
+*/dotnet/NuGet.config
+*.binlog
 *.pidb
 *.userprefs
 *.swp

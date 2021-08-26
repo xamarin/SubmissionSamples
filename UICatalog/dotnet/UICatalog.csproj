@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? the linker is disabled and all symbols are present in the binary
+    -->
+    <TargetFramework>net6.0-tvos</TargetFramework>
+    <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UICatalog</RootNamespace>
+    <AssemblyName>UICatalog</AssemblyName>
+
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>UICatalog III - Distribution Profile (.NET)</CodesignProvision>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchEnableBitcode>true</MtouchEnableBitcode>
+
+    <SourceDirectory>../UICatalog/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Back.imagestacklayer\Content.imageset\Scenery 1 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Front.imagestacklayer\Content.imageset\Scenery 1 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 1.imagestack\Middle.imagestacklayer\Content.imageset\Scenery 1 middle.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Back.imagestacklayer\Content.imageset\Scenery 2 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Front.imagestacklayer\Content.imageset\Scenery 2 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 1.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 1.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 1.imagestacklayer\Content.imageset\Scenery 2 middle 1.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 2.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 2.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 2.imagestack\Middle 2.imagestacklayer\Content.imageset\Scenery 2 middle 2.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Back.imagestacklayer\Content.imageset\Scenery 3 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Front.imagestacklayer\Content.imageset\Scenery 3 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 3.imagestack\Middle.imagestacklayer\Content.imageset\Scenery 3 middle.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Back.imagestacklayer\Content.imageset\Scenery 4 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Front.imagestacklayer\Content.imageset\Scenery 4 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 1.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 1.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 1.imagestacklayer\Content.imageset\Scenery 4 middle 1.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 2.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 2.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 4.imagestack\Middle 2.imagestacklayer\Content.imageset\Scenery 4 middle 2.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Back.imagestacklayer\Content.imageset\Scenery 5 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Front.imagestacklayer\Content.imageset\Scenery 5 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 1.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 1.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 1.imagestacklayer\Content.imageset\Scenery 5 middle 1.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 2.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 2.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 5.imagestack\Middle 2.imagestacklayer\Content.imageset\Scenery 5 middle 2.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Back.imagestacklayer\Content.imageset\Scenery 6 back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Front.imagestacklayer\Content.imageset\Scenery 6 top.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Scenery 6.imagestack\Middle.imagestacklayer\Content.imageset\Scenery 6 middle.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\star_icon.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\star_icon.imageset\star_icon.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\search_icon.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\search_icon.imageset\search_icon.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\checkmark_icon.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\checkmark_icon.imageset\checkmark_icon.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\xamarin-large-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\xamarin-large-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\xamarin-back 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\xamarin-front 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image Wide.imageset\TopShelf 2x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Images.xcassets\Brand Assets.brandassets\Top Shelf Image.imageset\TopShelf 2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)Main.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background.imageset\Contents.json">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background.imageset\Contents.json</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background.imageset\stepper_and_segment_background.png">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background.imageset\stepper_and_segment_background.png</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\Contents.json">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\Contents.json</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\stepper_and_segment_background_disabled.png">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background_disabled.imageset\stepper_and_segment_background_disabled.png</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\Contents.json">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\Contents.json</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\stepper_and_segment_background_highlighted.png">
+      <Link>Resources\Images.xcassets\stepper_and_segment_background_highlighted.imageset\stepper_and_segment_background_highlighted.png</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\Contents.json">
+      <Link>Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\Contents.json</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\stepper_and_segment_segment_divider.png">
+      <Link>Resources\Images.xcassets\stepper_and_segment_segment_divider.imageset\stepper_and_segment_segment_divider.png</Link>
+    </BundleResource>
+  </ItemGroup>
+</Project>

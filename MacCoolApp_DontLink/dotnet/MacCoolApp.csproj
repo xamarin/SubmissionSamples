@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // We test this because ? the linker is disabled and all symbols are present in the binary
+        // actually because of QTKit deprecation we are forced to use "Link SDK" and an XML file that preserve (almost) everything else
+    -->
+    <TargetFramework>net6.0-macos</TargetFramework>
+    <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MacCoolApp</RootNamespace>
+    <AssemblyName>MacCoolApp</AssemblyName>
+
+    <CreatePackage>true</CreatePackage>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodeSignProvision>Mac Cool App - Distribution Profile (.NET)</CodeSignProvision>
+    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+    <LinkMode>SdkOnly</LinkMode>
+
+    <SourceDirectory>../MacCoolApp/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+    <MonoBundlingExtraArgs>--xml=$(SourceDirectory)/all-but-quicktime.xml</MonoBundlingExtraArgs>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)MainWindow.cs" />
+    <Compile Include="$(SourceDirectory)MainWindow.designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(SourceDirectory)MainWindowController.cs" />
+    <Compile Include="$(SourceDirectory)MainWindowController.designer.cs">
+      <DependentUpon>MainWindowController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(SourceDirectory)Main.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.designer.cs">
+      <DependentUpon>AppDelegate.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="$(SourceDirectory)MainWindow.xib" />
+    <InterfaceDefinition Include="$(SourceDirectory)MainMenu.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="$(SourceDirectory)Resources\MyIcon.icns" Link="Resources\MyIcon.icns" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-16.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-16%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-32.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-32%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-128.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-256.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Resources\Media.xcassets\AppIcon.appiconset\AppIcon-512.png" />
+  </ItemGroup>
+</Project>

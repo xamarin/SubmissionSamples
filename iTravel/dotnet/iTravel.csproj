@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+        // - The linker is disabled and all symbols are present in the binary
+        // - Build without LLVM (i.e. Mono AOT)
+        // - No 32bits slice since it's too big to be generated successfully (since mono-2019-02)
+    -->
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier> <!-- test case is 64-bit only -->
+    <OutputType>Exe</OutputType>
+    <RootNamespace>iTravel</RootNamespace>
+    <AssemblyName>iTravel</AssemblyName>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
+    <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>iTravel - Distribution Profile - dotnet</CodesignProvision>
+    <!-- This test has the linker disabled, so this is important: -->
+    <MtouchLink>None</MtouchLink>
+    <!-- also disable LLVM -->
+    <MtouchUseLlvm>false</MtouchUseLlvm>
+
+    <SourceDirectory>../iTravel/</SourceDirectory>
+
+    <CodesignEntitlements>$(SourceDirectory)Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="8.0.2" />
+  </ItemGroup>
+    <ItemGroup>
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-40%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\istanbul.dataset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\istanbul.dataset\istanbul.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\paris.dataset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\paris.dataset\paris.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\rotterdam.dataset\Contents.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\rotterdam.dataset\rotterdam.json" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\app-store-icon.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-29%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-29%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-40%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-app-60%402x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\Icon-app-60%403x.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-29.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-spotlight-40.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-app-76.png" />
+    <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\icon-app-76%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="$(SourceDirectory)Main.storyboard" />
+    <InterfaceDefinition Include="$(SourceDirectory)Resources\LaunchScreen.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SourceDirectory)Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(SourceDirectory)Main.cs" />
+    <Compile Include="$(SourceDirectory)AppDelegate.cs" />
+    <Compile Include="$(SourceDirectory)ViewController.cs" />
+    <Compile Include="$(SourceDirectory)ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(SourceDirectory)AlbumViewController.cs" />
+    <Compile Include="$(SourceDirectory)AlbumViewController.designer.cs">
+      <DependentUpon>AlbumViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(SourceDirectory)ImageViewController.cs" />
+    <Compile Include="$(SourceDirectory)ImageViewController.designer.cs">
+      <DependentUpon>ImageViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(SourceDirectory)PreviewDetail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="$(SourceDirectory)Resources\Bookmarks\netherlands.pdf" Link="Resources\Bookmarks\netherlands.pdf" />
+    <BundleResource Include="$(SourceDirectory)Resources\Bookmarks\turkey.pdf" Link="Resources\Bookmarks\turkey.pdf" />
+    <BundleResource Include="$(SourceDirectory)Resources\Bookmarks\france.pdf" Link="Resources\Bookmarks\france.pdf" />
+    <BundleResource Include="$(SourceDirectory)Resources\Istanbul\Istanbul_01.jpg">
+      <ResourceTags>Istanbul</ResourceTags>
+      <Link>Resources\Istanbul\Istanbul_01.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Istanbul\Istanbul_02.jpg">
+      <ResourceTags>Istanbul</ResourceTags>
+      <Link>Resources\Istanbul\Istanbul_02.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Istanbul\Istanbul_03.jpg">
+      <ResourceTags>Istanbul</ResourceTags>
+      <Link>Resources\Istanbul\Istanbul_03.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris\Paris_01.jpg">
+      <ResourceTags>Paris</ResourceTags>
+      <Link>Resources\Paris\Paris_01.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris\Paris_02.jpg">
+      <ResourceTags>Paris</ResourceTags>
+      <Link>Resources\Paris\Paris_02.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris\Paris_03.jpg">
+      <ResourceTags>Paris</ResourceTags>
+      <Link>Resources\Paris\Paris_03.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Paris\Paris_04.jpg">
+      <ResourceTags>Paris</ResourceTags>
+      <Link>Resources\Paris\Paris_04.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Rotterdam\Rotterdam_01.jpg">
+      <ResourceTags>Rotterdam</ResourceTags>
+      <Link>Resources\Rotterdam\Rotterdam_01.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Rotterdam\Rotterdam_02.jpg">
+      <ResourceTags>Rotterdam</ResourceTags>
+      <Link>Resources\Rotterdam\Rotterdam_02.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="$(SourceDirectory)Resources\Rotterdam\Rotterdam_03.jpg">
+      <ResourceTags>Rotterdam</ResourceTags>
+      <Link>Resources\Rotterdam\Rotterdam_03.jpg</Link>
+    </BundleResource>
+  </ItemGroup>
+</Project>
