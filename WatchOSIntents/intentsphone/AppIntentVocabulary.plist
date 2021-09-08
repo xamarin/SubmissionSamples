@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentName</key>
+			<string>INGetRideStatusIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Get ride status</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INListRideOptionsIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>List rides</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INRequestRideIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Start a ride</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
