@@ -21,8 +21,6 @@
 	</array>
 	<key>GCSupportsControllerUserInteraction</key>
 	<true/>
-	<key>MinimumOSVersion</key>
-	<string>10.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>3</integer>
