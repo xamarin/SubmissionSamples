@@ -9,6 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>UICatalog</RootNamespace>
     <AssemblyName>UICatalog</AssemblyName>
+    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
 
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>

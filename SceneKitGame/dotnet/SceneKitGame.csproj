@@ -6,6 +6,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>SceneKitGame</RootNamespace>
     <AssemblyName>SceneKitGame</AssemblyName>
+    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
 
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>

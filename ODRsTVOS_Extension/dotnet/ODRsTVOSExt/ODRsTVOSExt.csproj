@@ -9,6 +9,7 @@
     <RootNamespace>ODRsTVOSExt</RootNamespace>
     <AssemblyName>ODRsTVOSExt</AssemblyName>
     <IsAppExtension>true</IsAppExtension>
+    <SupportedOSPlatformVersion>10.2</SupportedOSPlatformVersion>
 
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
