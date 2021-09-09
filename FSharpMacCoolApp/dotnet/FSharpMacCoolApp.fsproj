@@ -9,6 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpMacCoolApp</RootNamespace>
     <AssemblyName>FSharpMacCoolApp</AssemblyName>
+    <SupportedOSPlatformVersion>10.15</SupportedOSPlatformVersion>
 
     <CreatePackage>true</CreatePackage>
     <EnableCodeSigning>true</EnableCodeSigning>
