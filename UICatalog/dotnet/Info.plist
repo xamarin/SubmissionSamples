@@ -36,7 +36,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>XSAppIconAssets</key>
-	<string>Resources/Images.xcassets/Brand Assets.brandassets</string>
+	<string>../UICatalog/Resources/Images.xcassets/Brand Assets.brandassets</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

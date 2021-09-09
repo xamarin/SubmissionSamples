@@ -32,9 +32,9 @@
 	<key>GCSupportsControllerUserInteraction</key>
 	<true/>
 	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets</string>
+	<string>../SceneKitGame/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets</string>
 	<key>XSLaunchImageAssets</key>
-	<string>Assets.xcassets/LaunchImages.launchimage</string>
+	<string>../SceneKitGame/Assets.xcassets/LaunchImages.launchimage</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
