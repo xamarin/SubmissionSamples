@@ -29,7 +29,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcons.appiconset</string>
+	<string>../iTravel/Assets.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSCalendarsUsageDescription</key>
