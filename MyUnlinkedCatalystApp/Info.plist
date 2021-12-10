@@ -16,8 +16,6 @@
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
-	<key>LSMinimumSystemVersion</key>
-	<string>10.15</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>LSApplicationCategoryType</key>
