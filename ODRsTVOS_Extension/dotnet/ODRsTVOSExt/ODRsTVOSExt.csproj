@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <None Include="$(SourceDirectory)Entitlements.plist" />
+    <None Include="Info.plist" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(SourceDirectory)ServiceProvider.cs" />
