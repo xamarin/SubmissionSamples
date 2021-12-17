@@ -6,7 +6,7 @@
         // actually because of QTKit deprecation we are forced to use "Link SDK" and an XML file that preserve (almost) everything else
     -->
     <TargetFramework>net6.0-macos</TargetFramework>
-    <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
+    <RuntimeIdentifiers>osx-arm64;osx-x64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>MacCoolApp</RootNamespace>
     <AssemblyName>MacCoolApp</AssemblyName>
