@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-maccatalyst</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifier>maccatalyst-arm64</RuntimeIdentifier>
+
+    <ApplicationTitle>MyNotarizedCatalystApp</ApplicationTitle>
+    <ApplicationId>com.xamarin.mynotarizedcatalystapp</ApplicationId>
+    <SupportedOSPlatformVersion>14.0</SupportedOSPlatformVersion>
+
+    <CreatePackage>true</CreatePackage>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodesignKey Condition="'$(CodesignKey)' == ''">Developer ID Application: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <PackageSigningKey Condition="'$(PackageSigningKey)' == ''">Developer ID Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+  </PropertyGroup>
+</Project>
+
