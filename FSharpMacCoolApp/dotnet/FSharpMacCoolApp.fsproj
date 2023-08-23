@@ -4,7 +4,8 @@
     <!--
         // We test this because ? F# and notarization (it's not in the App Store [Connect])
     -->
-    <TargetFramework>net6.0-macos</TargetFramework>
+    <TargetFramework>net8.0-macos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpMacCoolApp</RootNamespace>

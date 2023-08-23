@@ -42,7 +42,7 @@
     <MtouchEnableBitcode>true</MtouchEnableBitcode>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchArch>ARMv7k</MtouchArch>
+    <MtouchArch>ARM64_32</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <CodesignProvision>Intents Sample - Distribution Profile</CodesignProvision>
   </PropertyGroup>
@@ -78,7 +78,7 @@
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchArch>ARMv7k</MtouchArch>
+    <MtouchArch>ARM64_32</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
   <ItemGroup>

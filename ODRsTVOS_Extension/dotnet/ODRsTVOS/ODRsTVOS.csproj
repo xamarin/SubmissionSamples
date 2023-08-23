@@ -4,12 +4,13 @@
     <!--
         // We test this because ? the linker is disabled and all symbols are present in the binary
     -->
-    <TargetFramework>net6.0-tvos</TargetFramework>
+    <TargetFramework>net8.0-tvos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <RootNamespace>ODRsTVOS</RootNamespace>
     <AssemblyName>ODRsTVOS</AssemblyName>
-    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
 
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>

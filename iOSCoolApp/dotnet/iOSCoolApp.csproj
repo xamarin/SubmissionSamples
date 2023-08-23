@@ -4,12 +4,13 @@
     <!--
         // We test this because ? interpreter support
     -->
-    <TargetFramework>net6.0-ios</TargetFramework>
-    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>iOSCoolApp</RootNamespace>
     <AssemblyName>iOSCoolApp</AssemblyName>
-    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <CodesignProvision>iOS Publish Workflow II - Distribution Profile (.N</CodesignProvision>
     <BuildIpa>true</BuildIpa>

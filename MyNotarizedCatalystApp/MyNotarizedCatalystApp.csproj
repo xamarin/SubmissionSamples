@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-maccatalyst</TargetFramework>
+    <TargetFramework>net8.0-maccatalyst</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <OutputType>Exe</OutputType>
     <RuntimeIdentifier>maccatalyst-arm64</RuntimeIdentifier>
 
