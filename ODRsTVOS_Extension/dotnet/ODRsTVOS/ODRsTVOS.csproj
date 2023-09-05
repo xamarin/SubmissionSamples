@@ -108,7 +108,9 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ODRsTVOSExt\ODRsTVOSExt.csproj" />
+    <ProjectReference Include="..\ODRsTVOSExt\ODRsTVOSExt.csproj">
+      <IsAppExtension>true</IsAppExtension>
+    </ProjectReference>
   </ItemGroup>
 </Project>
 
