@@ -4,7 +4,7 @@
     <!--
         // We test this because ? interpreter support
     -->
-    <TargetFramework>net6.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>iOSCoolApp</RootNamespace>
