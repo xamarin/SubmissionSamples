@@ -4,7 +4,7 @@
     <!--
         // We test this because ? the linker is disabled and all symbols are present in the binary
     -->
-    <TargetFramework>net8.0-tvos</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-tvos</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
@@ -109,7 +109,9 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ODRsTVOSExt\ODRsTVOSExt.csproj" />
+    <ProjectReference Include="..\ODRsTVOSExt\ODRsTVOSExt.csproj">
+      <IsAppExtension>true</IsAppExtension>
+    </ProjectReference>
   </ItemGroup>
 </Project>
 

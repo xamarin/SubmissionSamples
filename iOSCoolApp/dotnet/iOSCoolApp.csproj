@@ -4,9 +4,9 @@
     <!--
         // We test this because ? interpreter support
     -->
-    <TargetFramework>net8.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
-    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
+    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>iOSCoolApp</RootNamespace>
     <AssemblyName>iOSCoolApp</AssemblyName>

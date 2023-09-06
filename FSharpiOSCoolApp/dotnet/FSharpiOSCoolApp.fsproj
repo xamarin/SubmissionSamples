@@ -4,9 +4,9 @@
     <!--
         // We test this because ? F# support
     -->
-    <TargetFramework>net8.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
-    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
+    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpiOSCoolApp</RootNamespace>
     <AssemblyName>FSharpiOSCoolApp</AssemblyName>

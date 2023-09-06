@@ -6,7 +6,7 @@
         // - Build without LLVM (i.e. Mono AOT)
         // - No 32bits slice since it's too big to be generated successfully (since mono-2019-02)
     -->
-    <TargetFramework>net8.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier> <!-- test case is 64-bit only -->
     <OutputType>Exe</OutputType>
