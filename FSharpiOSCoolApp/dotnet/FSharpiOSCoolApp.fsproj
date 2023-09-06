@@ -7,7 +7,7 @@
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
+    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpiOSCoolApp</RootNamespace>
     <AssemblyName>FSharpiOSCoolApp</AssemblyName>
