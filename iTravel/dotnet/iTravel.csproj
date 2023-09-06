@@ -8,6 +8,7 @@
     -->
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier> <!-- test case is 64-bit only -->
     <OutputType>Exe</OutputType>
     <RootNamespace>iTravel</RootNamespace>

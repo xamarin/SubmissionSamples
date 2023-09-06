@@ -6,6 +6,7 @@
     -->
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-tvos</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifier>tvos-arm64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <RootNamespace>ODRsTVOS</RootNamespace>
