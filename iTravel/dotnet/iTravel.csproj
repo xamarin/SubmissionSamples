@@ -6,12 +6,14 @@
         // - Build without LLVM (i.e. Mono AOT)
         // - No 32bits slice since it's too big to be generated successfully (since mono-2019-02)
     -->
-    <TargetFramework>net6.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier> <!-- test case is 64-bit only -->
     <OutputType>Exe</OutputType>
     <RootNamespace>iTravel</RootNamespace>
     <AssemblyName>iTravel</AssemblyName>
-    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>

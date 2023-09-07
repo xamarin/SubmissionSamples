@@ -5,7 +5,9 @@
         // We test this because ? the linker is disabled and all symbols are present in the binary
         // actually because of QTKit deprecation we are forced to use "Link SDK" and an XML file that preserve (almost) everything else
     -->
-    <TargetFramework>net6.0-macos</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-macos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifiers>osx-arm64;osx-x64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>MacCoolApp</RootNamespace>

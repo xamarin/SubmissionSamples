@@ -4,12 +4,14 @@
     <!--
         // We test this because ? F# support
     -->
-    <TargetFramework>net6.0-ios</TargetFramework>
-    <RuntimeIdentifiers>ios-arm64;ios-arm</RuntimeIdentifiers>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpiOSCoolApp</RootNamespace>
     <AssemblyName>FSharpiOSCoolApp</AssemblyName>
-    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <BuildIpa>true</BuildIpa>
     <GenerateTailCalls>true</GenerateTailCalls>
