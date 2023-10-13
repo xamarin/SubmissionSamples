@@ -5,6 +5,8 @@
         // We test this because ? F# and notarization (it's not in the App Store [Connect])
     -->
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-macos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpMacCoolApp</RootNamespace>

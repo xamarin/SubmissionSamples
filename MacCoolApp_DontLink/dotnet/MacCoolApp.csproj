@@ -6,6 +6,8 @@
         // actually because of QTKit deprecation we are forced to use "Link SDK" and an XML file that preserve (almost) everything else
     -->
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-macos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RuntimeIdentifiers>osx-arm64;osx-x64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <RootNamespace>MacCoolApp</RootNamespace>
