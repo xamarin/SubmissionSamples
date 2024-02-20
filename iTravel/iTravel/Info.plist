@@ -44,6 +44,8 @@
 	<string>Music</string>
 	<key>NSSiriUsageDescription</key>
 	<string>Siri</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location (always and in use)</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Location (always)</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
