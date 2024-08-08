@@ -1,6 +1,6 @@
 Submission samples
 ===================
-The samples in this directory optimized to be used by [submission_runner](https://github.com/xamarin/QualityAssurance/tree/master/Tools/iTunesConnectUploader/Ruby) Ruby gem to test publishing work flow code.
+
 * [iOS](./iOSCoolApp/)
 * [iOS F#](./FSharpiOSCoolApp/)
 * [iOS iCloud Entitlements](./CloudKitAtlas/)
@@ -18,7 +18,9 @@ The samples in this directory optimized to be used by [submission_runner](https:
 
 Samples configuration
 ----------------------
+
 All samples in this repository should be configured to use:
+
 * *Release|Device* configuration(or *Release* for Mac apps)
 * Valid AppStore distribution certificate
 * Valid provisioning profile
