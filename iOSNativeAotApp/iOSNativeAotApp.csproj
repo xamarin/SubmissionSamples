@@ -1,11 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-ios</TargetFramework>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
-    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <PublishAot>true</PublishAot>
+    <_IsPublishing>true</_IsPublishing>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
 
 
     <!--

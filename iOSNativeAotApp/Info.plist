@@ -5,7 +5,7 @@
     <key>CFBundleDisplayName</key>
     <string>iOSNativeAotApp</string>
     <key>CFBundleIdentifier</key>
-    <string>com.companyname.iOSNativeAotApp</string>
+    <string>com.xamarin.nativeaotapp-ios.dotnet</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
