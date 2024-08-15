@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-maccatalyst</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+
+    <PublishAot>true</PublishAot>
+    <_IsPublishing>true</_IsPublishing>
+
+    <ApplicationTitle>MacCatalystNativeAOTApp</ApplicationTitle>
+    <ApplicationId>com.xamarin.nativeaotapp-maccatalyst.dotnet</ApplicationId>
+    <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
+
+    <CreatePackage>true</CreatePackage>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <UseHardenedRuntime>true</UseHardenedRuntime>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodeSignProvision>MacCat Native AOT Dist</CodeSignProvision>
+    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+  </PropertyGroup>
+</Project>
