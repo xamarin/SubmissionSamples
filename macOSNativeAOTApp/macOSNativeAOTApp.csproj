@@ -3,7 +3,6 @@
     <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-macos</TargetFramework>
     <EnablePreviewFeatures>True</EnablePreviewFeatures>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <!-- <RuntimeIdentifiers>osx-arm64;osx-x64</RuntimeIdentifiers> -->
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
