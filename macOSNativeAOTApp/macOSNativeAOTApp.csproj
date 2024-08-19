@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-macos</TargetFramework>
+    <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>12.0</SupportedOSPlatformVersion>
+
+    <CreatePackage>true</CreatePackage>
+    <EnableCodeSigning>true</EnableCodeSigning>
+    <EnablePackageSigning>true</EnablePackageSigning>
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodeSignProvision>macOS Native AOT Distribution Profile</CodeSignProvision>
+    <PackageSigningKey>3rd Party Mac Developer Installer: Luis Aguilera (DPXCPAGVTZ)</PackageSigningKey>
+
+    <PublishAot>true</PublishAot>
+    <_IsPublishing>true</_IsPublishing>
+  </PropertyGroup>
+</Project>
