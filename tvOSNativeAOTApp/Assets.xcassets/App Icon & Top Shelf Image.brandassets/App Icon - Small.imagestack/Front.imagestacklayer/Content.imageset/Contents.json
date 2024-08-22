@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "filename": "TopShelf.png",
+      "filename": "xamarin-front.png",
       "scale": "1x",
       "idiom": "tv"
     },
     {
-      "filename": "TopShelf 2x.png",
+      "filename": "xamarin-front 2x.png",
       "scale": "2x",
       "idiom": "tv"
     }

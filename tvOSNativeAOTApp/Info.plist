@@ -26,17 +26,7 @@
     </array>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets</string>
-    <key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<string>AppIcon</string>
-	</dict>
-    <key>TVTopShelfImage</key>
-    <dict>
-        <key>TVTopShelfPrimaryImage</key>
-        <string>Top Shelf Image</string>
-        <key>TVTopShelfPrimaryImageWide</key>
-        <string>Top Shelf Image Wide-1</string>
-    </dict>
+    <key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImages.launchimage</string>
 </dict>
 </plist>
