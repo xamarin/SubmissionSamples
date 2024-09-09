@@ -17,3 +17,7 @@ packages/
 */*/obj/*
 */*/*/bin/*
 */*/*/obj/*
+
+*/Nuget.config
+*/global.json
+*.sln
