@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ODRsTVOS</RootNamespace>
     <AssemblyName>ODRsTVOS</AssemblyName>
-    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>12.2</SupportedOSPlatformVersion>
 
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>

@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>iOSCoolApp</RootNamespace>
     <AssemblyName>iOSCoolApp</AssemblyName>
-    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>12.2</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <CodesignProvision>iOS Publish Workflow II - Distribution Profile (.N</CodesignProvision>
     <BuildIpa>true</BuildIpa>

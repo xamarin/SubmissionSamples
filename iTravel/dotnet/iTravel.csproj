@@ -13,7 +13,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>iTravel</RootNamespace>
     <AssemblyName>iTravel</AssemblyName>
-    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>12.2</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <OnDemandResourcesPrefetchOrder>paris</OnDemandResourcesPrefetchOrder>
     <OnDemandResourcesInitialInstallTags>rotterdam</OnDemandResourcesInitialInstallTags>

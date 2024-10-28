@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpiOSCoolApp</RootNamespace>
     <AssemblyName>FSharpiOSCoolApp</AssemblyName>
-    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>12.2</SupportedOSPlatformVersion>
     <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
     <BuildIpa>true</BuildIpa>
     <GenerateTailCalls>true</GenerateTailCalls>

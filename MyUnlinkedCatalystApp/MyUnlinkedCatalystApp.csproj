@@ -9,7 +9,7 @@
 
     <ApplicationTitle>MyCatalystApp</ApplicationTitle>
     <ApplicationId>com.xamarin.mycatalystapp</ApplicationId>
-    <SupportedOSPlatformVersion>14.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
 
     <CreatePackage>true</CreatePackage>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
