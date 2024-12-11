@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <!--
+        // - The linker is disabled and all symbols are present in the binary
+        // - Build without LLVM (i.e. Mono AOT)
+        // - No 32bits slice since it's too big to be generated successfully (since mono-2019-02)
+    -->
+
+  <PropertyGroup>  
+    <TargetFramework>net$(BundledNETCoreAppTargetFrameworkVersion)-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+
+    <!-- This test has the linker disabled, so this is important: -->
+    <MtouchLink>None</MtouchLink>
+    <!-- also disable LLVM -->
+    <!-- <MtouchUseLlvm>false</MtouchUseLlvm> -->
+
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier> 
+    <CodesignKey>Apple Distribution: Luis Aguilera (DPXCPAGVTZ)</CodesignKey>
+    <CodesignProvision>AppleProfile_Framework - Distribution Profile</CodesignProvision> 
+    <BuildIpa>true</BuildIpa> 
+
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="starscream.net" Version="4.0.6.1" />
+  </ItemGroup>
+</Project>
