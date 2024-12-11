@@ -30,7 +30,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="8.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
     <ItemGroup>
     <ImageAsset Include="$(SourceDirectory)Assets.xcassets\AppIcons.appiconset\Contents.json" />
